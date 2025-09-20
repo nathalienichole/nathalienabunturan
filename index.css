@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('index.jpg') no-repeat center center fixed;
+    background-size: contain;
+    background-color: #f8c3da;
+    font-family: 'Poppins', sans-serif;
+    color: #4b004b; 
+}
+
+/* Center content */
+.content {
+    text-align: center;
+    padding: 25px 15px;
+    backdrop-filter: blur(1px);
+}
+
+/* Highlighted title */
+.highlight-title {
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    text-shadow: 3px 3px 3px #5a005a;
+    background: linear-gradient(90deg, #080708, #ff8ee1, #fce9f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:normal;
+    margin-bottom: 2px;
+    
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5a005a;
+    margin-top: 0;
+}
